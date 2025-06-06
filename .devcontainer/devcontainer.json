@@ -1,0 +1,37 @@
+{
+	"name": "Ubuntu",
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/kotlin-sdkman:2": {
+			"version": "latest",
+			"jdkVersion": "latest",
+			"jdkDistro": "tem"
+		},
+		"ghcr.io/devcontainers/features/ruby:1": {
+			"version": "latest"
+		}
+	},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "sdk install kotlin",
+
+	// ✅ MISSING COMMA FIXED HERE
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"vscjava.vscode-java-pack",
+				"donjayamanne.python-extension-pack",
+				"formulahendry.code-runner",
+				"mathiasfrohlich.kotlin",
+				"shopify.ruby-lsp",
+				"esbenp.prettier-vscode"
+			]
+		}
+	}
+
+	// "remoteUser": "root"
+}
