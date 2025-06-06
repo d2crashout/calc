@@ -1,0 +1,5 @@
+# for vscode/codespaces
+.vscode/
+
+# c binary compiled
+c/calc
