@@ -6,3 +6,7 @@ c/calc
 
 # kotlin jar
 kotlin/calc.jar
+
+# assembly binaries
+assembly/calc.o
+assembly/calc

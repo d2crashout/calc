@@ -9,6 +9,17 @@
 		},
 		"ghcr.io/devcontainers/features/ruby:1": {
 			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/node:1": {
+			"nodeGypDependencies": true,
+			"installYarnUsingApt": true,
+			"version": "lts",
+			"pnpmVersion": "latest",
+			"nvmVersion": "latest"
+		},
+		"ghcr.io/devcontainers/features/python:1": {
+			"installTools": true,
+			"version": "latest"
 		}
 	},
 
@@ -16,7 +27,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sdk install kotlin",
+	"postCreateCommand": "sdk install kotlin && npm install -g http-server",
 
 	// ✅ MISSING COMMA FIXED HERE
 	"customizations": {
@@ -28,7 +39,8 @@
 				"formulahendry.code-runner",
 				"mathiasfrohlich.kotlin",
 				"shopify.ruby-lsp",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"13xforever.language-x86-64-assembly"
 			]
 		}
 	}
