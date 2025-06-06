@@ -3,3 +3,6 @@
 
 # c binary compiled
 c/calc
+
+# kotlin jar
+kotlin/calc.jar
