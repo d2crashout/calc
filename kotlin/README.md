@@ -14,3 +14,7 @@ Install:
 Compile:
     
     kotlinc calc.kt -include-runtime -d calc.jar
+    
+Run:
+
+    java -jar calc.jar
