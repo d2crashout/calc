@@ -12,3 +12,8 @@ I learned about the weird C function names
 The super easy Ruby syntax
 
 And so much more!!!
+
+## Badgie
+
+<!-- BADGIE TIME -->
+<!-- END BADGIE TIME -->
