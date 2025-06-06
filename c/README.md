@@ -8,3 +8,11 @@ This was honestly fun to make because C was different than other languages so fa
 anyways you better like it
 
 ###### or else...
+
+Compile using GCC:
+
+    gcc calc.c -o calc
+
+Then run with:
+
+    ./calc
