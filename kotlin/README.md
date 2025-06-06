@@ -8,7 +8,9 @@ Kotlin here!
 Compile me like this:
 
 Install:
+    
     sdk install kotlin
 
 Compile:
-    kotlinc hello.kt -include-runtime -d hello.jar
+    
+    kotlinc calc.kt -include-runtime -d calc.jar
