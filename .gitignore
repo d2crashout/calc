@@ -10,3 +10,7 @@ kotlin/calc.jar
 # assembly binaries
 assembly/calc.o
 assembly/calc
+
+# rust lock and cache files
+rust/Cargo.lock
+rust/target
