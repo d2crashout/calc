@@ -5,6 +5,6 @@ The Ruby edition!!!
 
 By far the easiest syntax and code in general.
 
-Run with:
+### Run with:
 
     ruby calc.rb

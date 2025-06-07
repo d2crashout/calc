@@ -11,16 +11,16 @@ This assembly calculator only works with whole numbers, only on linux x86(x64)
 
 Anyways
 
-Install NASM:
+### Install NASM:
 
     sudo apt update
     sudo apt install nasm
 
-Compile:
+### Compile:
 
     nasm -f elf64 calc.asm -o calc.o
     gcc -no-pie -o calc calc.o
 
-Run: 
+### Run: 
 
     ./calc

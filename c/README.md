@@ -9,10 +9,10 @@ anyways you better like it
 
 ###### or else...
 
-Compile using GCC:
+### Compile using GCC:
 
     gcc calc.c -o calc
 
-Then run with:
+### Then run with:
 
     ./calc

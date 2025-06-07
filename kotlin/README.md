@@ -11,10 +11,10 @@ Install:
     
     sdk install kotlin
 
-Compile:
+### Compile:
     
     kotlinc calc.kt -include-runtime -d calc.jar
     
-Run:
+### Run:
 
     java -jar calc.jar
